@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h2{
+    text-align: center;
+    padding: 25px;
+}
+
+body{
+    background-color: rgb(236, 224, 224);
+    background: url(images/dashbacklogo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container{
+    display: flex;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: #fff;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+a:hover {
+    background-color: cadetblue;
+}
+
+a.active {
+    background-color: cadetblue;
+}
+
+a {
+    position: relative;
+    color: black;
+    font-size: 20px;
+    display: table;
+    width: 280px;
+    padding: 10px;
+}
+
+nav .fas{
+    position: relative;
+    width: 70px;
+    height: 50px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+/*main section*/
+
+.main{
+    position: relative;
+    padding: 20px;
+    width:100%;
+}
+
+.main-top{
+    display:flex;
+    width:100%;
+}
+
+.main-top i{
+    position: absolute;
+    right: 0;
+    margin: 0px 30px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.main-button{
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    width:200px;
+    cursor: pointer;
+    background-color:cadetblue;
+    font-weight: 600;
+    color:white;
+}
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px  0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color:cadetblue;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid cadetblue;
+}

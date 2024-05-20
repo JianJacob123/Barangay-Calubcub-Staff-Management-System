@@ -1,0 +1,177 @@
+
+/*side menu*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h2{
+    text-align: center;
+    padding: 25px;
+}
+
+body{
+    background-color: rgb(236, 224, 224);
+    background: url(images/dashbacklogo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container{
+    display: flex;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: #fff;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+nav a:hover {
+    background-color: cadetblue;
+}
+
+nav a:active {
+    background-color: cadetblue;
+}
+
+nav a {
+    position: relative;
+    color: black;
+    font-size: 20px;
+    display: table;
+    width: 280px;
+    padding: 10px;
+}
+
+nav .fas{
+    position: relative;
+    width: 40px;
+    height: 50px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+/*main section*/
+
+.main{
+    position: relative;
+    padding: 20px;
+    width:100%;
+}
+
+.main-top{
+    display:flex;
+    width:100%;
+}
+
+.main-top i{
+    position: absolute;
+    right: 0;
+    margin: 0px 30px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.search .searchbar{
+    padding: 10px;
+    margin-top: 20px;
+    width: 20%;
+}
+
+.search .btn{
+    margin-left: 10px;
+    border-radius: 15px;
+    width: 80px;
+    height: 25px;
+    background-color: cadetblue;
+}
+
+.search .nxtbtn{
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 80px;
+    height: 25px;
+    background-color: cadetblue;
+}
+
+/*sub section*/
+
+.sub{
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.sub-bottom{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+.table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 100%;
+    overflow: hidden;
+    border-radius: 5px 5px 0, 0;
+}
+table thead tr{
+    color: #fff;
+    background: cadetblue;
+    text-align: left;
+    font-weight: bold;
+}
+.table th,
+.table td{
+    padding: 12px 15px;
+}
+.table tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+.table tbody tr:nth-of-type(even){
+    background: #f3f3f3;
+}
+.table tbody tr.active{
+    font-weight: bold;
+    color: cadetblue;
+}
+.table tbody tr:last-of-type{
+    border-bottom: 20x solid cadetblue;
+}
+
+.table button{
+    padding: 6px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid cadetblue;
+}
+.table button:hover{
+    background: cadetblue;
+    color: #fff;
+    transition: 0.5rem;
+}

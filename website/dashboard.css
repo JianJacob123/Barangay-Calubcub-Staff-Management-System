@@ -1,0 +1,198 @@
+
+/*side menu*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h2{
+    text-align: center;
+    padding: 25px;
+}
+
+body{
+    background-color: rgb(236, 224, 224);
+    background: url(images/dashbacklogo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container{
+    display: flex;
+}
+
+nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: #fff;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+a:hover {
+    background-color: cadetblue;
+}
+
+a.active {
+    background-color: cadetblue;
+}
+
+a {
+    position: relative;
+    color: black;
+    font-size: 20px;
+    display: table;
+    width: 280px;
+    padding: 10px;
+}
+
+nav .fas{
+    position: relative;
+    width: 70px;
+    height: 50px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+/*main section*/
+
+.main{
+    position: relative;
+    padding: 20px;
+    width:100%;
+}
+
+.main-top{
+    display:flex;
+    width:100%;
+}
+
+.main-top i{
+    position: absolute;
+    right: 0;
+    margin: 0px 30px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.main-features{
+    display: flex; 
+    margin-top: 20px;
+
+}
+
+.main-features .card{
+    width: 50%;
+    margin: 10px;
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+.main-features .card h3{
+    margin:10px;
+    text-transform:capitalize;
+}
+
+.main-features .card .main-button{
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    width:100px;
+    cursor: pointer;
+    background-color:cadetblue;
+    font-weight: 600;
+}
+
+/*sub section*/
+
+.sub{
+    position: relative;
+    margin-top: 12px;
+}
+
+.sub-bottom{
+    display:flex;
+    width: 100%;
+    font-size:20px;
+}
+
+.sub-features{
+    display: flex;
+    margin-top: 20px;
+}
+
+.sub-features .bottom-card{
+    width: 100%;
+    height: 350px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 10px;
+    padding:10px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+.sub-features .bottom-card .ass-tasks{
+    position: relative;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 53%;
+    font-size: 30px;
+}
+
+.sub-features .bottom-card .ass-tasknum{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 53%;
+    font-size: 30px;
+}
+
+.sub-features .bottom-card .com-tasks{
+    position: relative;
+    text-align: center;
+    left: 24%;
+    bottom: 30%;
+    font-size: 30px;
+}
+
+.sub-features .bottom-card .com-tasknum{
+    position: relative;
+    text-align: center;
+    left: 24%;
+    bottom: 21%;
+    font-size: 30px;
+}
+
+.sub-features .bottom-card .sub-button{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    width:300px;
+    height: 50px;
+    cursor: pointer;
+    background-color:cadetblue;
+    font-weight: 600;
+
+}

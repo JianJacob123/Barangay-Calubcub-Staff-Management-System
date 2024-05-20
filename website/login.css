@@ -1,0 +1,62 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 224, 224);
+    background: url(images/backlogo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    align-items: center;
+    min-height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.Login{
+    width: 420px;
+    height: 330px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+.Login h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.Login .input-login{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    margin: 40px 0;
+}
+.input-login input{
+    width: 60%;
+    height: 30%;
+    background: transparent;
+    border: 2px solid rgba(47, 105, 186, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+.input-login input::placeholder{
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Login .btn{
+    text-align:center;
+    margin: 20px;
+    width: 50%;
+    height: 65%;
+    background: cadetblue;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+    
+  
